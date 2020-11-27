@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.pbp.gd11_c_9847.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_pdf"
+            app:destination="@id/nav_pdf" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pdf"
+        android:name="com.pbp.gd11_c_9847.ui.pdf.PdfFragment"
+        android:label="@string/menu_pdf"
+        tools:layout="@layout/fragment_pdf" >
+        <action
+            android:id="@+id/action_nav_pdf_to_nav_download"
+            app:destination="@id/nav_download" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_download"
+        android:name="com.pbp.gd11_c_9847.ui.download.DownloadFragment"
+        android:label="@string/menu_download"
+        tools:layout="@layout/fragment_download" >
+        <action
+            android:id="@+id/action_nav_download_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

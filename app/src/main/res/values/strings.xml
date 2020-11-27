@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">UGD11_C_9847</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UNGUIDED LIBRARY 2</string>
+    <string name="nav_header_subtitle">Dito - 180709847</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_home">Home</string>
+    <string name="action_pdf">Generate PDF</string>
+    <string name="action_download">Download</string>
+
+    <string name="start">Download</string>
+    <string name="pause">Pause</string>
+    <string name="cancel">Cancel</string>
+    <string name="some_error_occurred">Some error occurred</string>
+    <string name="completed">completed</string>
+    <string name="resume">resume</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_pdf">Generate PDF</string>
+    <string name="menu_download">Downloader</string>
+    <string name="cetak">Cetak</string>
+    <string name="data_mahasiswa">DATA MAHASISWA</string>
+    <string name="gambar">Gambar</string>
+    <string name="musik">Musik</string>
+    <string name="windowimageview">WindowImageView</string>
+    <string name="_0_66_mb">0.66 Mb</string>
+    <string name="_3_76_mb">3.76 Mb</string>
+    <string name="download_di_sini">Download di Sini!</string>
+    <string name="no">No.</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+</resources>
